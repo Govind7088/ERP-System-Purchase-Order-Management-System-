@@ -27,7 +27,7 @@ It is made using **Python (FastAPI)** for backend and **HTML, CSS, JavaScript** 
 1. Clone project
 
 ```
-git clone <your-repo-link>
+git clone https://github.com/Govind7088/ERP-PO-SYSTEM/
 cd erp-po-system/backend
 ```
 
