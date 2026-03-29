@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PO System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nav-bar">
+  <nav>
+    <h1>ERP-PO-SYSTEM</h1>
+
+    <!-- Hamburger -->
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+<h2>Create Purchase Order</h2>
+
+<select id="vendors"></select>
+
+<br><br>
+
+<input type="text" id="amount" placeholder="Enter Amount">
+
+<br><br>
+
+<button onclick="createPO()">Create PO</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
